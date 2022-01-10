@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="header\example.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="method.cpp" />
     <ClCompile Include="videoDemo.cpp" />
@@ -150,7 +151,8 @@
     <Media Include="src\01.mp4" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="method.h" />
+    <ClInclude Include="header\example.h" />
+    <ClInclude Include="header\method.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

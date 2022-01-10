@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\Opencv">
-      <UniqueIdentifier>{bf62bba4-bcf6-40e3-9517-ae2d92f26ea7}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -25,6 +22,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="method.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="header\example.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -39,8 +39,11 @@
     </Media>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="method.h">
-      <Filter>头文件\Opencv</Filter>
+    <ClInclude Include="header\method.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\example.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
