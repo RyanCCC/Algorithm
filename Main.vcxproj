@@ -140,6 +140,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="method.cpp" />
+    <ClCompile Include="videoDemo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="src\01.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="method.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
