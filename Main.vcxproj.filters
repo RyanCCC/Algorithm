@@ -27,9 +27,42 @@
     <ClCompile Include="header\example.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DarkChannel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HazeRemoval.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\test.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\8.bmp">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
@@ -43,6 +76,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="header\example.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkChannel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HazeRemoval.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

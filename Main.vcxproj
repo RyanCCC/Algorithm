@@ -139,20 +139,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DarkChannel.cpp" />
+    <ClCompile Include="GuideFilter.cpp" />
+    <ClCompile Include="HazeRemoval.cpp" />
     <ClCompile Include="header\example.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="method.cpp" />
     <ClCompile Include="videoDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="src\1.bmp" />
+    <Image Include="src\2.bmp" />
+    <Image Include="src\3.bmp" />
+    <Image Include="src\4.bmp" />
+    <Image Include="src\5.bmp" />
+    <Image Include="src\6.bmp" />
+    <Image Include="src\7.bmp" />
+    <Image Include="src\8.bmp" />
     <Image Include="src\test.png" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="src\01.mp4" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="DarkChannel.h" />
+    <ClInclude Include="GuideFilter.h" />
     <ClInclude Include="header\example.h" />
     <ClInclude Include="header\method.h" />
+    <ClInclude Include="HazeRemoval.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
