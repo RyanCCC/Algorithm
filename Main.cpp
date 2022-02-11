@@ -5,6 +5,7 @@
 #include "GuideFilter.h"
 #include "DarkChannel.h"
 #include "sift.h"
+#include"HOG.h"
 
 using namespace std;
 using namespace cv;
@@ -12,11 +13,18 @@ using namespace cv;
 
 extern void videoshow(string video);
 
+
+
 int main()
 {
-    //sift算法
-    string img1 = "./src/lena.jpg";;
+    string img1 = "./src/lena.jpg";
     string img2 = "./src/lena_test.jpg";
+    //HOG算法
+    Mat image = imread(img1);
+    HOG_main(image);
+
+    //sift算法
+    
     sift_main(img1, img2);
     //去雾算法
     for (int i = 1; i <= 8; i++)

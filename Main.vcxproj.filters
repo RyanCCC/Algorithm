@@ -39,6 +39,9 @@
     <ClCompile Include="sift.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="HOG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\test.png">
@@ -100,6 +103,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="sift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HOG.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
