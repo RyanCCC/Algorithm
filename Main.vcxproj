@@ -145,6 +145,7 @@
     <ClCompile Include="header\example.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="method.cpp" />
+    <ClCompile Include="sift.cpp" />
     <ClCompile Include="videoDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,8 @@
     <Image Include="src\6.bmp" />
     <Image Include="src\7.bmp" />
     <Image Include="src\8.bmp" />
+    <Image Include="src\lena.jpg" />
+    <Image Include="src\lena_test.jpg" />
     <Image Include="src\test.png" />
   </ItemGroup>
   <ItemGroup>
@@ -168,6 +171,7 @@
     <ClInclude Include="header\example.h" />
     <ClInclude Include="header\method.h" />
     <ClInclude Include="HazeRemoval.h" />
+    <ClInclude Include="sift.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

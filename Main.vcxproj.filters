@@ -36,6 +36,9 @@
     <ClCompile Include="HazeRemoval.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sift.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\test.png">
@@ -65,6 +68,12 @@
     <Image Include="src\8.bmp">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="src\lena.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\lena_test.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Media Include="src\01.mp4">
@@ -88,6 +97,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="HazeRemoval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sift.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

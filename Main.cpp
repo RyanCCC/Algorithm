@@ -4,6 +4,7 @@
 #include "HazeRemoval.h"
 #include "GuideFilter.h"
 #include "DarkChannel.h"
+#include "sift.h"
 
 using namespace std;
 using namespace cv;
@@ -13,6 +14,10 @@ extern void videoshow(string video);
 
 int main()
 {
+    //sift算法
+    string img1 = "./src/lena.jpg";;
+    string img2 = "./src/lena_test.jpg";
+    sift_main(img1, img2);
     //去雾算法
     for (int i = 1; i <= 8; i++)
     {
