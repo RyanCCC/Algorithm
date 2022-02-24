@@ -114,7 +114,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -146,6 +146,7 @@
     <ClCompile Include="HOG.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="method.cpp" />
+    <ClCompile Include="pfs.cpp" />
     <ClCompile Include="sift.cpp" />
     <ClCompile Include="videoDemo.cpp" />
   </ItemGroup>
@@ -173,7 +174,11 @@
     <ClInclude Include="header\method.h" />
     <ClInclude Include="HazeRemoval.h" />
     <ClInclude Include="HOG.h" />
+    <ClInclude Include="pfs.h" />
     <ClInclude Include="sift.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

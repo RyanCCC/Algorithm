@@ -6,6 +6,7 @@
 #include "DarkChannel.h"
 #include "sift.h"
 #include"HOG.h"
+#include"pfs.h"
 
 using namespace std;
 using namespace cv;
@@ -17,6 +18,7 @@ extern void videoshow(string video);
 
 int main()
 {
+    pfs();
     string img1 = "./src/lena.jpg";
     string img2 = "./src/lena_test.jpg";
     //HOG算法
