@@ -54,6 +54,7 @@ void readzgrid(char* infile)
 	{
 		for (j = 1; j <= M; j++)
 		{
+			//读取高程信息到数组里面
 			fscanf(fp, "%lf", &z[i][j]);
 		}
 		fscanf(fp, "\n");

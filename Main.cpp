@@ -43,6 +43,11 @@ int main()
     }
     string img_path = "./src/test.png";
     Mat img = imread(img_path);
+    //图像不存在的情况
+    if (img.empty()) {
+        cout << "could not load image"<<endl;
+    }
+    //一些其他的操作可以参考：https://mp.weixin.qq.com/s/k2rnkfhTXI-fC8Vu7MfnBg
     example2_5(img);
     cout << max_customer(1, 2) << endl;
     cout << min_customer(1, 2) << endl;
