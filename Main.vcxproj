@@ -120,6 +120,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>16000000</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -139,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="D8.cpp" />
     <ClCompile Include="DarkChannel.cpp" />
     <ClCompile Include="GuideFilter.cpp" />
     <ClCompile Include="HazeRemoval.cpp" />
@@ -168,6 +170,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
+    <ClInclude Include="D8.h" />
     <ClInclude Include="DarkChannel.h" />
     <ClInclude Include="GuideFilter.h" />
     <ClInclude Include="header\example.h" />
