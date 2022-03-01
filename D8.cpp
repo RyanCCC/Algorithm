@@ -1,10 +1,14 @@
 #include "D8.h"
 
-//参考：https://blog.csdn.net/qq_30357007/article/details/109385986
+/*
+* 参考：https://blog.csdn.net/qq_30357007/article/details/109385986
+* DEM文件：https://surferhelp.goldensoftware.com/subsys/subsys_ASC_Arc_Info_ASCII_Grid.htm
+*/
+
 
 int D8_main()
 {
-    const char* filename = "./src/test.txt";
+    const char* filename = "./src/test1.txt";
     ifstream ifs;
     //判断文件是否打开成功
     ifs.open(filename, ios::in);
@@ -15,20 +19,16 @@ int D8_main()
     //读取数据，并存储到数组当中
     string buf;
     vector < vector<int> > src;
-    vector<int> src_row;
     while (getline(ifs, buf))
     {
+        vector<int> src_row;
         stringstream ss;
         ss << buf;
         int tmp;
-        int num = 0;
         
         //从txt文件中提取DEM的值
         while (ss >> tmp) {
             src_row.push_back(tmp);
-            num++;
-            //if (num == DEM_SIZE_COL)
-                //break;
             if (ss.peek() == ',' || ss.peek() == ' ')
                 ss.ignore();
         }
@@ -42,12 +42,9 @@ int D8_main()
     vector<vector<int>> Vector(row, vector_tmp);
     vector<int> Result_tmp(col, 0);
     vector<vector<int>> Result(row, Result_tmp);
-    //int Vector[DEM_SIZE_ROW][DEM_SIZE_COL] = { 0 }, Result[DEM_SIZE_ROW][DEM_SIZE_COL] = { 0 };
     double Sqrt2;
     double S = 0, N = 0, E = 0, SE = 0, NE = 0, NW = 0, W = 0, SW = 0;
-    //sqrt只支持float和double类型数据，计算平方根
     Sqrt2 = sqrt(2);
-    //d8算法实体，三目运算符
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
             S = (i != (row - 1)) ? (src[i][j] - src[i + 1][j]) : -1;
