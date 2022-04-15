@@ -28,7 +28,7 @@ def hamming(h1, h2):
 
 
 if __name__ == '__main__':
-    image_path = './image/lena.jpg'
+    image_path = './image/ImageSimilarity/lena.jpg'
     result = avhash(image_path)
     h = hamming(result, result)
     print(h/64)
