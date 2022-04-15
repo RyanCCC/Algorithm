@@ -146,4 +146,4 @@ SIFT关键点指的是图像中的一些十分突出的点，这些点不会因�
 
 - [x]  ImageSimilarity：图像匹配算法，包括相似性度量的感知哈希算法、模板匹配算法、银行卡号识别实战。
 - [x]  ImageSegment：图像分割算法
-- [ ]  Mask：Mask掩膜操作 
+- [x]  Mask：Mask掩膜操作 
