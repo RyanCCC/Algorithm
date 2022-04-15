@@ -1,8 +1,9 @@
-#include "D8.h"
+#include "header/D8.h"
 
 /*
 * 参考：https://blog.csdn.net/qq_30357007/article/details/109385986
 * DEM文件：https://surferhelp.goldensoftware.com/subsys/subsys_ASC_Arc_Info_ASCII_Grid.htm
+* 测试数据：https://zhuanlan.zhihu.com/p/107759204
 */
 
 
@@ -106,8 +107,6 @@ int D8_main()
                     Vector[i][j] = 0;
                 }
             }
-
-
         }
     }
 

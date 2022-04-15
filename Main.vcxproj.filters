@@ -24,9 +24,6 @@
     <ClCompile Include="method.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="header\example.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="DarkChannel.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -46,6 +43,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="D8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

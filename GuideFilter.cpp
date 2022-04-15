@@ -1,4 +1,4 @@
-#include "GuideFilter.h"
+#include "header/GuideFilter.h"
 
 
 static void makeDepth32f(Mat& source, Mat& output)

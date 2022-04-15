@@ -1,4 +1,4 @@
-#include "HOG.h"
+#include "header/HOG.h"
 #define PI 3.1415926
 #define bin_size 20
 #define tot_ang 180

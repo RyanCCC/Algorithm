@@ -1,6 +1,6 @@
-#include "HazeRemoval.h"
-#include "GuideFilter.h"
-#include "DarkChannel.h"
+#include "header/HazeRemoval.h"
+#include "header/GuideFilter.h"
+#include "header/DarkChannel.h"
 
 void HazeRemoval(Mat& source, Mat& output, int minr, int maxA, double w, int guider, double guideeps, int L)
 {

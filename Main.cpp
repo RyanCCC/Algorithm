@@ -1,13 +1,13 @@
-﻿#include "Common.h"
+﻿#include "header/Common.h"
 #include "header/method.h"
 #include"header/example.h"
-#include "HazeRemoval.h"
-#include "GuideFilter.h"
-#include "DarkChannel.h"
-#include "sift.h"
-#include "HOG.h"
-#include "pfs.h"
-#include "D8.h"
+#include "header/HazeRemoval.h"
+#include "header/GuideFilter.h"
+#include "header/DarkChannel.h"
+#include "header/sift.h"
+#include "header/HOG.h"
+#include "header/pfs.h"
+#include "header/D8.h"
 
 using namespace std;
 using namespace cv;
