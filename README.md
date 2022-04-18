@@ -149,4 +149,4 @@ SIFT关键点指的是图像中的一些十分突出的点，这些点不会因�
 - [x]  ImageMask：Mask掩膜操作 
 - [x]  ImageBlur：滤波
 - [x]  ImageGray：图像灰度化操作
-- [ ]  ImageMorphology：图像形态学变化
+- [x]  ImageMorphology：图像形态学变化
