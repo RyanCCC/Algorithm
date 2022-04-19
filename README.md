@@ -152,6 +152,6 @@ SIFT关键点指的是图像中的一些十分突出的点，这些点不会因�
 - [x]  ImageMorphology：图像形态学变化
 - [x]  ImageEdgeDetection：图像边缘检测
 - [x]  ImageContour：图像轮廓
-- [ ]  ImageTransform：图像变换
+- [x]  ImageTransform：图像变换
 - [ ]  ImageSamplingAndClustering：图像采样与聚类
 - [ ]  ImagePointsDetection：图像边角点检测
