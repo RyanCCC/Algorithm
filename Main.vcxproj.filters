@@ -48,6 +48,18 @@
     <ClCompile Include="example.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="inpaint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="masked_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nnf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pyinterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\test.png">
@@ -81,6 +93,9 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="src\lena_test.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\forest_pruned.bmp">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
@@ -118,6 +133,21 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="D8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inpaint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="masked_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bbf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pyinterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nnf.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
