@@ -33,7 +33,7 @@ int main()
         for (int j = 0; j < mask_ori.size().width; ++j) {
             auto source_ptr = mask_ori.ptr<unsigned char>(i, j);
             if (source_ptr[0] !=0 && source_ptr[1] != 0 && source_ptr[2] != 0) {
-                mask.at<unsigned char>(i, j) = 255;
+                mask.at<unsigned char>(i, j) = 1;
             }
         }
     }
@@ -42,8 +42,9 @@ int main()
     cv::imshow("mask", mask);
     cv::waitKey();
 
-
+    //nnf算法
     auto metric = PatchSSDDistanceMetric(3);
+    //计算结果
     auto result = Inpainting(source, mask, &metric).run(true, false);
     //展示图像
     cv::imwrite("./images/forest_recovered.bmp", result);
