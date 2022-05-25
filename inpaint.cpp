@@ -4,7 +4,7 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
 
-#include "inpaint.h"
+#include "header/inpaint.h"
 
 namespace {
     static std::vector<double> kDistance2Similarity;

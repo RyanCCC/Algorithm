@@ -111,43 +111,43 @@
     <ClInclude Include="header\example.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Common.h">
+    <ClInclude Include="header\Common.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="DarkChannel.h">
+    <ClInclude Include="header\D8.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GuideFilter.h">
+    <ClInclude Include="header\DarkChannel.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="HazeRemoval.h">
+    <ClInclude Include="header\GuideFilter.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="sift.h">
+    <ClInclude Include="header\HazeRemoval.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="HOG.h">
+    <ClInclude Include="header\HOG.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="pfs.h">
+    <ClInclude Include="header\pfs.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="D8.h">
+    <ClInclude Include="header\sift.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="inpaint.h">
+    <ClInclude Include="header\bbf.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="masked_image.h">
+    <ClInclude Include="header\inpaint.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="bbf.h">
+    <ClInclude Include="header\masked_image.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="pyinterface.h">
+    <ClInclude Include="header\nnf.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="nnf.h">
+    <ClInclude Include="header\pyinterface.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -9,9 +9,9 @@
 #include "header/pfs.h"
 #include "header/D8.h"
 
-#include "masked_image.h"
-#include "nnf.h"
-#include "inpaint.h"
+#include "header/masked_image.h"
+#include "header/nnf.h"
+#include "header/inpaint.h"
 
 using namespace std;
 using namespace cv;

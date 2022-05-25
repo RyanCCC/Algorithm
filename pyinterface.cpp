@@ -1,5 +1,5 @@
-#include "pyinterface.h"
-#include "inpaint.h"
+#include "header/pyinterface.h"
+#include "header/inpaint.h"
 
 static unsigned int PM_seed = 1212;
 static bool PM_verbose = false;

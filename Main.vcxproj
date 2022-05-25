@@ -174,21 +174,21 @@
     <Media Include="src\01.mp4" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bbf.h" />
-    <ClInclude Include="Common.h" />
-    <ClInclude Include="D8.h" />
-    <ClInclude Include="DarkChannel.h" />
-    <ClInclude Include="GuideFilter.h" />
+    <ClInclude Include="header\bbf.h" />
+    <ClInclude Include="header\Common.h" />
+    <ClInclude Include="header\D8.h" />
+    <ClInclude Include="header\DarkChannel.h" />
     <ClInclude Include="header\example.h" />
+    <ClInclude Include="header\GuideFilter.h" />
+    <ClInclude Include="header\HazeRemoval.h" />
+    <ClInclude Include="header\HOG.h" />
+    <ClInclude Include="header\inpaint.h" />
+    <ClInclude Include="header\masked_image.h" />
     <ClInclude Include="header\method.h" />
-    <ClInclude Include="HazeRemoval.h" />
-    <ClInclude Include="HOG.h" />
-    <ClInclude Include="inpaint.h" />
-    <ClInclude Include="masked_image.h" />
-    <ClInclude Include="nnf.h" />
-    <ClInclude Include="pfs.h" />
-    <ClInclude Include="pyinterface.h" />
-    <ClInclude Include="sift.h" />
+    <ClInclude Include="header\nnf.h" />
+    <ClInclude Include="header\pfs.h" />
+    <ClInclude Include="header\pyinterface.h" />
+    <ClInclude Include="header\sift.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="src\test.txt" />
