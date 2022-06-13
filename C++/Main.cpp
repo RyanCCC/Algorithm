@@ -24,8 +24,8 @@ extern void videoshow(string video);
 int main()
 {
     //Image inpaint https://github.com/vacancy/PyPatchMatch
-    auto source = cv::imread("./src/202112311304288.jpg", cv::IMREAD_COLOR);
-    auto mask_ori = cv::imread("./src/202112311304288_mask.jpg");
+    auto source = cv::imread("../src/202112311304288.jpg", cv::IMREAD_COLOR);
+    auto mask_ori = cv::imread("../src/202112311304288_mask.jpg");
 
     auto mask = cv::Mat(mask_ori.size(), CV_8UC1);
     mask = cv::Scalar::all(0);
