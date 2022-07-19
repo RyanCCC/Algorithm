@@ -34,3 +34,7 @@
 Debug
 
 *.png
+
+out
+
+build
