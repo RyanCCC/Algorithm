@@ -17,7 +17,7 @@
 
 - [x] [去雾算法](./doc/%E5%8E%BB%E9%9B%BE%E7%AE%97%E6%B3%95.md)
 - [x] [SIFT算法](./doc/SIFT%E7%AE%97%E6%B3%95.md)
-- [ ] [HOG算法](./doc/HOG%E7%AE%97%E6%B3%95.md)
+- [x] [HOG算法](./doc/HOG%E7%AE%97%E6%B3%95.md)
 - [ ] [PatchMatch算法](./doc/PatchMatch%E7%AE%97%E6%B3%95.md)
 - [ ] [D8算法](./doc/D8%E7%AE%97%E6%B3%95.md)
 
