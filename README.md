@@ -20,9 +20,10 @@
 - [x] [去雾算法](./doc/%E5%8E%BB%E9%9B%BE%E7%AE%97%E6%B3%95.md)
 - [x] [SIFT算法](./doc/SIFT%E7%AE%97%E6%B3%95.md)
 - [x] [HOG算法](./doc/HOG%E7%AE%97%E6%B3%95.md)
-- [ ] [PatchMatch算法](./doc/PatchMatch%E7%AE%97%E6%B3%95.md)
-- [ ] [D8算法](./doc/D8%E7%AE%97%E6%B3%95.md)
+- [x] [PatchMatch算法](./doc/PatchMatch%E7%AE%97%E6%B3%95.md)
+- [x] [D8算法](./doc/D8%E7%AE%97%E6%B3%95.md)
 - [ ] [视频去抖动算法](https://www.sciencedirect.com/science/article/pii/S1877050916314624)
+- [ ] [Convex Hull](./doc/ConvexHull.md)，参考：[convexhull](https://github.com/spmallick/learnopencv/tree/master/ConvexHull)，[Convex Hull using OpenCV in Python and C++](https://learnopencv.com/convex-hull-using-opencv-in-python-and-c/)
 
 
 ### Python部分
