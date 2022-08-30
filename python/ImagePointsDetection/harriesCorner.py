@@ -89,11 +89,22 @@ def main(args):
         outfile.write(str(cornerList[i][0]) + ' ' + str(cornerList[i][1]) + ' ' + str(cornerList[i][2]) + '\n')
     outfile.close()
 
+def harries_OPENCV(args):
+    img = cv2.imread(args.image)
+    gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+    gray = np.float32(gray)
+    dst = cv2.cornerHarris(gray,3,23,0.04)
+    img[dst>0.01*dst.max()] = [0,0,255]
+    cv2.imshow('harries_OPENCV',img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
 
 
 if __name__ == '__main__':
     parser = parse_opt()
     args = parser.parse_args()
+    harries_OPENCV(args)
     main(args)
 
 
