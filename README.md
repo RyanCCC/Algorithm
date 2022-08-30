@@ -39,4 +39,4 @@
 - [x]  [ImageContour：图像轮廓](./python/ImageContour/main.ipynb)
 - [x]  [ImageTransform：图像变换](./python/ImageTransform/ReadMe.md)
 - [x]  [ImageSamplingAndClustering：图像采样与聚类](./python/ImageSamplingAndClustering/)
-- [ ]  [ImagePointsDetection：图像边角点检测](./python/ImagePointsDetection/)
+- [ ]  [ImagePointsDetection：图像边角点检测](./doc/%E8%A7%92%E7%82%B9%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95.md)
