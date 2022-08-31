@@ -1,9 +1,9 @@
 #include "D8.h"
 
 /*
-* ²Î¿¼£ºhttps://blog.csdn.net/qq_30357007/article/details/109385986
-* DEMÎÄ¼ş£ºhttps://surferhelp.goldensoftware.com/subsys/subsys_ASC_Arc_Info_ASCII_Grid.htm
-* ²âÊÔÊı¾İ£ºhttps://zhuanlan.zhihu.com/p/107759204
+* æå–æµå‘å’Œæ²³é“ç‚¹ï¼šhttps://blog.csdn.net/qq_30357007/article/details/109385986
+* Arcgisï¼šhttps://surferhelp.goldensoftware.com/subsys/subsys_ASC_Arc_Info_ASCII_Grid.htm
+* D8ç®—æ³•ï¼šhttps://zhuanlan.zhihu.com/p/107759204
 */
 
 
@@ -11,13 +11,13 @@ int D8_main()
 {
     const char* filename = "../../src/test1.txt";
     ifstream ifs;
-    //ÅĞ¶ÏÎÄ¼şÊÇ·ñ´ò¿ª³É¹¦
+    //ï¿½Ğ¶ï¿½ï¿½Ä¼ï¿½ï¿½Ç·ï¿½ò¿ª³É¹ï¿½
     ifs.open(filename, ios::in);
     if (!ifs.is_open()) {
-        cout << "ÎÄ¼ş´ò¿ªÊ§°Ü£¡" << endl;
+        cout << "ï¿½Ä¼ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½" << endl;
         return 0;
     }
-    //¶ÁÈ¡Êı¾İ£¬²¢´æ´¢µ½Êı×éµ±ÖĞ
+    //ï¿½ï¿½È¡ï¿½ï¿½ï¿½İ£ï¿½ï¿½ï¿½ï¿½æ´¢ï¿½ï¿½ï¿½ï¿½ï¿½éµ±ï¿½ï¿½
     string buf;
     vector < vector<int> > src;
     while (getline(ifs, buf))
@@ -27,7 +27,7 @@ int D8_main()
         ss << buf;
         int tmp;
         
-        //´ÓtxtÎÄ¼şÖĞÌáÈ¡DEMµÄÖµ
+        //ï¿½ï¿½txtï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½È¡DEMï¿½ï¿½Öµ
         while (ss >> tmp) {
             src_row.push_back(tmp);
             if (ss.peek() == ',' || ss.peek() == ' ')
@@ -36,8 +36,8 @@ int D8_main()
         if(src_row.size()!=0)
             src.push_back(src_row);
     }
-    //D8Ëã·¨
-    //¶ÔDEMÊı¾İ½øĞĞÁ÷ÏòºÍºÓµÀÌáÈ¡
+    //D8ï¿½ã·¨
+    //ï¿½ï¿½DEMï¿½ï¿½ï¿½İ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍºÓµï¿½ï¿½ï¿½È¡
     int row = src.size(), col = src[0].size();
     vector<int> vector_tmp(col, 0);
     vector<vector<int>> Vector(row, vector_tmp);
@@ -57,7 +57,7 @@ int D8_main()
             W = (j != 0) ? (src[i][j] - src[i][j - 1]) : -1;
             SW = (i != (row - 1) && j != 0) ? (src[i][j] - src[i + 1][j - 1]) / sqrt(2) : -1;
             
-            //ÆÂ½µ¼ÆËã
+            //ï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½
             double M = 0;
             M = (M > S) ? M : S;
             M = (M > SE) ? M : SE;
@@ -68,7 +68,7 @@ int D8_main()
             M = (M > W) ? M : W;
             M = (M > SW) ? M : SW;
 
-            //È¡×î´óÆÂ½µ
+            //È¡ï¿½ï¿½ï¿½ï¿½Â½ï¿½
             if (M > 0) {
                 if (M == S)
                 {
@@ -110,7 +110,7 @@ int D8_main()
         }
     }
 
-    //¼ÆËãÁ÷ÏòÊı¾İ
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     int i1 = 0, j1 = 0;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
@@ -181,7 +181,7 @@ int D8_main()
         }
     }
 
-    //±£´æÁ÷Ïò½á¹û
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     ofstream ofs;
     ofs.open("./direction.txt", ios::out);
 
@@ -192,7 +192,7 @@ int D8_main()
     }
     ofs.close();
 
-    //±£´æ»ãÁ÷½á¹û
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     ofstream ofs1;
     ofs1.open("./river.txt", ios::out);
     for (int i = 0; i < row; i++) {
