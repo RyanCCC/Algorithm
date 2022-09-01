@@ -23,6 +23,7 @@
 - [x] [PatchMatch算法](./doc/PatchMatch.md)
 - [x] [D8算法](./doc/D8.md)
 - [x] [Convex Hull](./doc/ConvexHull.md)，参考：[convexhull](https://github.com/spmallick/learnopencv/tree/master/ConvexHull)，[Convex Hull using OpenCV in Python and C++](https://learnopencv.com/convex-hull-using-opencv-in-python-and-c/)
+- [x] [图像修复](./doc/ImageInpaint.md)
 
 
 ### Python部分
@@ -39,4 +40,9 @@
 - [x]  [ImageContour：图像轮廓](./python/ImageContour/main.ipynb)
 - [x]  [ImageTransform：图像变换](./python/ImageTransform/ReadMe.md)
 - [x]  [ImageSamplingAndClustering：图像采样与聚类](./python/ImageSamplingAndClustering/)
-- [ ]  [ImagePointsDetection：图像边角点检测](./doc/%E8%A7%92%E7%82%B9%E6%A3%80%E6%B5%8B.md)
+- [x]  [ImagePointsDetection：图像边角点检测](./doc/%E8%A7%92%E7%82%B9%E6%A3%80%E6%B5%8B.md)
+
+
+## 参考
+
+1. [learning opencv](https://github.com/spmallick/learnopencv)
