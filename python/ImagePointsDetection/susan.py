@@ -1,5 +1,4 @@
 from PIL import Image
-import matplotlib.pyplot as plt
 import numpy as np
 #import gray
 def img_extraction(image):
@@ -49,7 +48,6 @@ def img_revise(image):
         for j in range(4, image.shape[1]-4):
             flag = 0
             for k in range(0, 8):
-                print(i)
                 if image[i, j, 0] <= image[int(i + X[k]), int(j + Y[k]), 0]:
                     flag += 1
                     break
@@ -62,8 +60,8 @@ def img_revise(image):
                 image[i, j, 1] = 0
                 image[i, j, 2] = 0
 if __name__ == '__main__':
-    im = np.array(Image.open('test.jpg').convert('L').convert('RGB'))
+    im = np.array(Image.open('checkerboard.jpg').convert('L').convert('RGB'))
     img_extraction(im)
     img_revise(im)
-    plt.imshow(im)
-    plt.show()
+    result_img = Image.fromarray(im)
+    result_img.show()
