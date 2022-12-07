@@ -41,3 +41,5 @@ build
 
 *.sln
 *.vcxproj*
+
+*.pyd
